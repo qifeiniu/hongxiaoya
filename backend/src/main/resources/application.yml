@@ -1,0 +1,61 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: hongxiaoya-api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/hongxiaoya?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: password
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      database: 0
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# 微信配置
+wx:
+  miniapp:
+    appid: your_miniapp_appid
+    secret: your_miniapp_secret
+  pay:
+    appId: your_miniapp_appid
+    mchId: your_mch_id
+    mchKey: your_mch_key
+    keyPath: classpath:apiclient_cert.p12
+
+# 阿里云配置
+aliyun:
+  accessKeyId: your_access_key_id
+  accessKeySecret: your_access_key_secret
+  oss:
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    bucketName: your_bucket_name
+  sms:
+    signName: 红小鸭相亲交友
+    templateCode: SMS_123456789
+  ocr:
+    endpoint: ocr-api.cn-hangzhou.aliyuncs.com
+  facebody:
+    endpoint: facebody.cn-shanghai.aliyuncs.com
+
+# 支付宝配置
+alipay:
+  appId: your_alipay_appid
+  privateKey: your_private_key
+  alipayPublicKey: your_alipay_public_key
+  serverUrl: https://openapi.alipay.com/gateway.do

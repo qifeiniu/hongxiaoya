@@ -1,0 +1,372 @@
+{
+	"pages": [
+		{
+			"path": "pages/splash/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录注册",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/chat/index",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/bottle/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/bottle/record",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/auth-verify/index",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/vip-recharge/index",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"navigationBarBackgroundColor": "#1F1F1F",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/egg-recharge/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "充值中心",
+				"navigationBarBackgroundColor": "#6B5EF7",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/profile-edit/index",
+			"style": {
+				"navigationBarTitleText": "编辑资料",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/who-likes-me/index",
+			"style": {
+				"navigationBarTitleText": "谁喜欢我",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/discover/index",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/activity/index",
+			"style": {
+				"navigationBarTitleText": "相亲",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user-detail/index",
+			"style": {
+				"navigationBarTitleText": "个人主页",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/activity-room/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/activity-create/index",
+			"style": {
+				"navigationBarTitleText": "创建相亲活动"
+			}
+		},
+		{
+			"path": "pages/post-publish/index",
+			"style": {
+				"navigationBarTitleText": "发布动态"
+			}
+		},
+		{
+			"path": "pages/wallet-detail/index",
+			"style": {
+				"navigationBarTitleText": "我的钱包",
+				"navigationBarBackgroundColor": "#6B5EF7",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/visitor-history/index",
+			"style": {
+				"navigationBarTitleText": "最近访客"
+			}
+		},
+		{
+			"path": "pages/edu-verify/index",
+			"style": {
+				"navigationBarTitleText": "学历认证",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/avatar-verify/index",
+			"style": {
+				"navigationBarTitleText": "头像认证",
+				"navigationBarBackgroundColor": "#6B5EF7",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/notification/index",
+			"style": {
+				"navigationBarTitleText": "系统通知"
+			}
+		},
+		{
+			"path": "pages/like-list/index",
+			"style": {
+				"navigationBarTitleText": "喜欢列表"
+			}
+		},
+		{
+			"path": "pages/help/index",
+			"style": {
+				"navigationBarTitleText": "使用帮助"
+			}
+		},
+		{
+			"path": "pages/customer-service/index",
+			"style": {
+				"navigationBarTitleText": "联系客服"
+			}
+		},
+		{
+			"path": "pages/matchmaker-apply/index",
+			"style": {
+				"navigationBarTitleText": "红娘入驻"
+			}
+		},
+		{
+			"path": "pages/matchmaker-center/index",
+			"style": {
+				"navigationBarTitleText": "已入驻红娘老师"
+			}
+		},
+		{
+			"path": "pages/my-posts/index",
+			"style": {
+				"navigationBarTitleText": "我的动态",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/change-phone/index",
+			"style": {
+				"navigationBarTitleText": "手机号更换"
+			}
+		},
+		{
+			"path": "pages/change-wechat/index",
+			"style": {
+				"navigationBarTitleText": "微信更换"
+			}
+		},
+		{
+			"path": "pages/settings/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/about/index",
+			"style": {
+				"navigationBarTitleText": "关于红小鸭"
+			}
+		},
+		{
+			"path": "pages/withdraw/index",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/privacy/index",
+			"style": {
+				"navigationBarTitleText": "隐私设置"
+			}
+		},
+		{
+			"path": "pages/activity-joined/index",
+			"style": {
+				"navigationBarTitleText": "已报名的活动"
+			}
+		},
+		{
+			"path": "pages/activity-apply/index",
+			"style": {
+				"navigationBarTitleText": "活动报名",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/activity-manage/index",
+			"style": {
+				"navigationBarTitleText": "活动管理"
+			}
+		},
+		{
+			"path": "pages/activity-history/index",
+			"style": {
+				"navigationBarTitleText": "活动回顾"
+			}
+		},
+		{
+			"path": "pages/block-list/index",
+			"style": {
+				"navigationBarTitleText": "屏蔽列表"
+			}
+		},
+		{
+			"path": "pages/document/index",
+			"style": {
+				"navigationBarTitleText": "文档详情"
+			}
+		},
+		{
+			"path": "pages/invite-friends/index",
+			"style": {
+				"navigationBarTitleText": "邀请好友注册",
+				"navigationBarBackgroundColor": "#F4F5F9"
+			}
+		},
+		{
+			"path": "pages/sign-in/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "每日签到"
+			}
+		},
+		{
+			"path": "pages/egg-bill/index",
+			"style": {
+				"navigationBarTitleText": "鸭蛋明细",
+				"navigationBarBackgroundColor": "#6B5EF7",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/report/index",
+			"style": {
+				"navigationBarTitleText": "提供举报证据",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/user-posts/index",
+			"style": {
+				"navigationBarTitleText": "个人动态",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "红小鸭交友",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#8A8A99",
+		"selectedColor": "#6B5EF7",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabs/home.png",
+				"selectedIconPath": "static/tabs/home-active.png"
+			},
+			{
+				"pagePath": "pages/discover/index",
+				"text": "发现",
+				"iconPath": "static/tabs/discover.png",
+				"selectedIconPath": "static/tabs/discover-active.png"
+			},
+			{
+				"pagePath": "pages/activity/index",
+				"text": "相亲",
+				"iconPath": "static/tabs/activity.png",
+				"selectedIconPath": "static/tabs/activity-active.png"
+			},
+			{
+				"pagePath": "pages/message/index",
+				"text": "消息",
+				"iconPath": "static/tabs/message.png",
+				"selectedIconPath": "static/tabs/message-active.png"
+			},
+			{
+				"pagePath": "pages/profile/index",
+				"text": "我的",
+				"iconPath": "static/tabs/profile.png",
+				"selectedIconPath": "static/tabs/profile-active.png"
+			}
+		]
+	},
+	"condition" : {
+		"current": 0,
+		"list": [
+			{
+				"name": "",
+				"path": "",
+				"query": ""
+			}
+		]
+	}
+}

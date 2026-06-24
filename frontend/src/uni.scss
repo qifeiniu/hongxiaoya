@@ -1,0 +1,89 @@
+/* ========================================================
+ * 鸭鸭交友 - 全局UI系统 SCSS 变量 (基于二狗参考图 IMG_4307)
+ * ======================================================== */
+
+/* 1. 核心品牌色 */
+$uni-color-primary: #6B5EF7; // 主题紫/靛蓝 (Primary)
+$uni-color-primary-light: #F4F5FF; // 极浅紫背景 (用于标签、浅色强调)
+$uni-color-primary-gradient: linear-gradient(135deg, #A08FFF 0%, #6B5EF7 100%); // 按钮渐变
+
+/* 2. 辅助情感色 (Accent) */
+$uni-color-accent: #FF5777; // 珊瑚粉 (用于"心动"、红点、喜欢)
+$uni-color-accent-light: #FFF0F3; // 浅粉底色
+
+/* 3. 状态色 */
+$uni-color-success: #00D2A3; // 清新绿 (在线状态)
+$uni-color-warning: #FFB03A; // 活力橙
+$uni-color-error: #FF5777;   // 统一使用珊瑚粉作为警示/强调
+
+/* 4. 中性色 (文本与边框) */
+$uni-text-color: #2A2938; // 标题/主要文字 (深黑灰)
+$uni-text-color-regular: #555460; // 常规段落
+$uni-text-color-grey: #9594A4; // 辅助/次要说明文字
+$uni-text-color-placeholder: #C8C8D4; // 占位符/禁用文字
+$uni-text-color-inverse: #ffffff; // 反色文字
+$uni-text-color-disable: #E8E8E8;
+
+/* 5. 背景色 */
+$uni-bg-color: #ffffff; // 纯白主背景/卡片底色
+$uni-bg-color-page: #F4F5FF; // 页面基础浅灰底色
+$uni-bg-color-grey: #F4F5FF; // 兼容老代码的背景色变量
+$uni-bg-color-hover: #F0F2F5; // 点击反馈
+$uni-bg-color-mask: rgba(0, 0, 0, 0.4); // 遮罩层
+
+/* 6. 边框颜色 */
+$uni-border-color: #EAEBF0;
+
+/* 7. 尺寸与圆角规范 (Border Radius) */
+$uni-border-radius-sm: 8rpx;
+$uni-border-radius-base: 16rpx;
+$uni-border-radius-lg: 32rpx; // 卡片标准大圆角
+$uni-border-radius-pill: 100rpx; // 胶囊/全圆角按钮
+$uni-border-radius-circle: 50%;
+
+/* 8. 阴影规范 (Shadows) */
+$uni-shadow-sm: 0 4rpx 12rpx rgba(0, 0, 0, 0.03);
+$uni-shadow-base: 0 8rpx 24rpx rgba(0, 0, 0, 0.04);
+$uni-shadow-lg: 0 16rpx 40rpx rgba(0, 0, 0, 0.06);
+$uni-shadow-primary: 0 12rpx 32rpx rgba(106, 97, 248, 0.25); // 主色呼吸发光
+$uni-shadow-accent: 0 12rpx 32rpx rgba(255, 94, 125, 0.25); // 粉色呼吸发光
+
+/* 尺寸变量 (向下兼容) */
+
+/* 字体尺寸 (向下兼容) */
+$uni-font-size-xs: 10px;
+$uni-font-size-sm: 12px;
+$uni-font-size-base: 14px;
+$uni-font-size-lg: 16px;
+$uni-font-size-xl: 18px;
+$uni-font-size-xxl: 24px;
+
+/* 字体家族 */
+$font-family-base: 'HarmonyOS Sans SC', -apple-system, sans-serif;
+
+/* 图片尺寸 */
+$uni-img-size-sm: 24px;
+$uni-img-size-base: 32px;
+$uni-img-size-lg: 48px;
+$uni-img-size-xl: 64px;
+
+/* 其他废弃阴影向下兼容 */
+$uni-spacing-row-sm: 5px;
+$uni-spacing-row-base: 10px;
+$uni-spacing-row-lg: 15px;
+
+/* 垂直间距 */
+$uni-spacing-col-sm: 4px;
+$uni-spacing-col-base: 8px;
+$uni-spacing-col-lg: 12px;
+
+/* 透明度 */
+$uni-opacity-disabled: 0.3; // 组件禁用态的透明度
+
+/* 文章场景相关 */
+$uni-color-title: #2c405a; // 文章标题颜色
+$uni-font-size-title: 20px;
+$uni-color-subtitle: #555; // 二级标题颜色
+$uni-font-size-subtitle: 18px;
+$uni-color-paragraph: #3f536e; // 文章段落颜色
+$uni-font-size-paragraph: 15px;
