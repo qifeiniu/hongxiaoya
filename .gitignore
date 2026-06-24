@@ -9,7 +9,6 @@ lerna-debug.log*
 
 node_modules
 .DS_Store
-dist
 *.local
 
 # Editor directories and files
@@ -25,6 +24,9 @@ backend/target/
 backend/.mvn/
 backend/mvnw
 backend/mvnw.cmd
+
+# Frontend build files (but keep root files)
+frontend/dist/
 
 # Other
 .pai/
